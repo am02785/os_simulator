@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="771.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="14.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Results" />
+      <Button fx:id="closeResultsMenu" layoutX="187.0" layoutY="701.0" mnemonicParsing="false" onAction="#close" prefHeight="62.0" prefWidth="127.0" text="Close" />
+      <TextArea editable="false" layoutX="5.0" layoutY="45.0" prefHeight="499.0" prefWidth="490.0" />
+      <Button fx:id="showPSAnalysisButton" layoutX="14.0" layoutY="552.0" mnemonicParsing="false" onAction="#showPSAnalysis" prefHeight="62.0" prefWidth="215.0" text="Show PS analysis" />
+      <Button fx:id="showMMUAnalysisButton" layoutX="271.0" layoutY="552.0" mnemonicParsing="false" onAction="#showMMUAnalysis" prefHeight="62.0" prefWidth="215.0" text="Show MMU analysis" />
+      <Button fx:id="showFSAnalysisButton" layoutX="14.0" layoutY="629.0" mnemonicParsing="false" onAction="#showFSAnalysis" prefHeight="62.0" prefWidth="215.0" text="Show FS analysis" />
+      <Button fx:id="showIOAnalysisButton" layoutX="271.0" layoutY="629.0" mnemonicParsing="false" onAction="#showIOAnalysis" prefHeight="62.0" prefWidth="215.0" text="Show IO analysis" />
+   </children>
+</AnchorPane>

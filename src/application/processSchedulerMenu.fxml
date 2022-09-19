@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="282.0" prefWidth="366.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="8.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Scheduling algorithm" wrappingWidth="144.1396484375" />
+      <ChoiceBox fx:id="schedulingAlgorithm" layoutX="14.0" layoutY="41.0" prefHeight="31.0" prefWidth="78.0" />
+      <Button fx:id="startProcessSchedulerButton" layoutX="123.0" layoutY="235.0" mnemonicParsing="false" onAction="#startProcessScheduler" prefHeight="39.0" prefWidth="121.0" text="Start" />
+      <Text layoutX="5.0" layoutY="102.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Time quantum" />
+      <TextField fx:id="timeQuantum" layoutX="14.0" layoutY="115.0" />
+      <Text layoutX="8.0" layoutY="169.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Input file" />
+      <Button fx:id="chooseFileButton" layoutX="14.0" layoutY="180.0" mnemonicParsing="false" onAction="#chooseFile" prefHeight="31.0" prefWidth="187.0" text="choose file" />
+   </children>
+</AnchorPane>

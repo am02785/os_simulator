@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.chart.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="408.0" prefWidth="560.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <PieChart layoutX="30.0" layoutY="14.0" prefHeight="249.0" prefWidth="500.0" title="Pie chart showing files used and files remaining" />
+      <Text layoutX="30.0" layoutY="285.0" strokeType="OUTSIDE" strokeWidth="0.0" text="seek distance:" />
+      <TextField editable="false" layoutX="28.0" layoutY="296.0" />
+      <Button fx:id="closeButton" layoutX="234.0" layoutY="338.0" mnemonicParsing="false" onAction="#close" prefHeight="62.0" prefWidth="92.0" text="Close" />
+   </children>
+</AnchorPane>

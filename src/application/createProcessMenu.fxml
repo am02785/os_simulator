@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="620.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="20.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Instructions" wrappingWidth="84.9189453125" />
+      <TextArea layoutX="14.0" layoutY="41.0" prefHeight="465.0" prefWidth="280.0" />
+      <Text layoutX="334.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CPU Burst" wrappingWidth="71.6708984375" />
+      <TextField layoutX="334.0" layoutY="41.0" />
+      <Text layoutX="334.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Priority" wrappingWidth="52.2265625" />
+      <TextField layoutX="334.0" layoutY="111.0" />
+      <Button fx:id="createProcessButton" layoutX="232.0" layoutY="518.0" mnemonicParsing="false" onAction="#createProcess" prefHeight="87.0" prefWidth="138.0" text="Create Process" />
+      <Button fx:id="showResultsButton" layoutX="14.0" layoutY="518.0" mnemonicParsing="false" onAction="#showResults" prefHeight="87.0" prefWidth="145.0" text="Show Results" />
+      <Button fx:id="closeButton" layoutX="442.0" layoutY="518.0" mnemonicParsing="false" onAction="#closeOSSimulator" prefHeight="87.0" prefWidth="138.0" text="Close" />
+      <Button fx:id="chooseFileButton" layoutX="334.0" layoutY="251.0" mnemonicParsing="false" onAction="#chooseFile" prefHeight="31.0" prefWidth="187.0" text="Choose File" />
+      <Text layoutX="334.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Memory Required" />
+      <TextField layoutX="334.0" layoutY="183.0" />
+      <Text layoutX="334.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Input File" />
+   </children>
+</AnchorPane>

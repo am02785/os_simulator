@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="221.0" prefWidth="438.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <Text layoutX="74.0" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="OS Simulator" textAlignment="CENTER" wrappingWidth="290.6708984375">
+         <font>
+            <Font size="42.0" />
+         </font>
+      </Text>
+      <Button fx:id="startButton" layoutX="151.0" layoutY="159.0" mnemonicParsing="false" onAction="#start" prefHeight="45.0" prefWidth="137.0" text="Start" />
+   </children>
+</AnchorPane>

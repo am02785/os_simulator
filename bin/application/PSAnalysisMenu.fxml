@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.chart.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="717.0" prefWidth="1053.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <LineChart layoutX="20.0" layoutY="21.0" prefHeight="285.0" prefWidth="1002.0" title="Graph of Number of process completed against time">
+        <xAxis>
+          <NumberAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </LineChart>
+      <Text layoutX="22.0" layoutY="322.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CPU utilization:" />
+      <TextField editable="false" layoutX="20.0" layoutY="334.0" />
+      <Text layoutX="20.0" layoutY="390.0" strokeType="OUTSIDE" strokeWidth="0.0" text="throughput:" />
+      <TextField editable="false" layoutX="20.0" layoutY="402.0" />
+      <Text layoutX="22.0" layoutY="459.0" strokeType="OUTSIDE" strokeWidth="0.0" text="averageTurnaroundTime:" />
+      <TextField editable="false" layoutX="20.0" layoutY="470.0" />
+      <Text layoutX="20.0" layoutY="530.0" strokeType="OUTSIDE" strokeWidth="0.0" text="averageWaitingTime:" />
+      <TextField editable="false" layoutX="20.0" layoutY="541.0" />
+      <Text layoutX="22.0" layoutY="598.0" strokeType="OUTSIDE" strokeWidth="0.0" text="averageResponseTime:" />
+      <TextField editable="false" layoutX="20.0" layoutY="609.0" />
+      <Button fx:id="closeButton" layoutX="467.0" layoutY="646.0" mnemonicParsing="false" onAction="#close" prefHeight="63.0" prefWidth="109.0" text="Close" />
+   </children>
+</AnchorPane>
